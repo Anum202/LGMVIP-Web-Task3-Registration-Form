@@ -1,38 +1,176 @@
-.App {
-  text-align: center;
+*{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  background-color: #ABC270;
+  height:50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2{
+  color: #F6F1F1;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 30px;
+}
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inputs{
+  width: 50%;
+}
+fieldset {
+  display: flex;
+  padding: 16px;
+  border: 2px solid #ABC270;
+  border-right-width: 3px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  border-radius: 4px;
+  flex-direction: column;
+  align-items: center;
+}
+h3{
+  color: #ABC270;
+  font-weight: bold;
+}
+.field {
+  position: relative;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-right: 80px;
+  font-size: 14px;
+  width: 100px;
+}
+sup {
+  color: red;
+  top: -2px;
+  font-size: 95%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+input{
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 250px;
+  height: 32px;
+  padding: 0 6px;
+  margin-top: 5px;
+}
+input:focus{
+  outline: none;
+  border-color: #ABC270;
+  border-width: 2px;
+}
+#radio-btn{
+  font-size: 5px;
+  width: 15px;
+  position: relative;
+  padding-bottom: 5px;
+  margin-right: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+#radio-btn label {
+  margin-right: 10px; 
+}
+#checkbox-btn{
+  font-size: 5px;
+  width: 15px;
+  position: relative;
+  padding-bottom: 5px;
+  margin-right: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+#checkbox-btn label {
+  margin-right: 10px; 
+}
+#enroll-btn{
+  padding: 12px;
+  margin-right: 10px;
+  width: 160px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #ABC270;
+  color: #F6F1F1;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#clear-btn{
+  padding: 12px;
+  margin-left: 20px;
+  width: 80px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #ABC270;
+  color: #F6F1F1;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.output{
+  width: 50%;
+  display: flex;
+  padding: 16px;
+  border: 2px solid#ABC270;
+  border-left: #ABC270;
+  border-bottom-width: 0px;
+  border-radius: 4px;
+  flex-direction: column;
+  align-items: center;
+}
+table{
+  border:2px solid #ABC270;
+  border-collapse: collapse;
+}
+th{
+  background-color: #ABC270;
+  color:#F6F1F1;
+  height: 30px;
+}
+#desc{
+  width: 200px;
+}
+#image{
+  width: 150px;
+}
+td{
+  border-width: 0px;
+  padding: 2px;
+}
+.student-card {
+  display: flex;
+  border: 1px solid #F6F1F1;
+  padding: 5px;
+  margin: 3px;
+  background-color:#F6F1F1;
+  border-radius: 5px;
+}
+.student-info {
+  flex: 1; 
+  color:#000;
 }
 
-.App-link {
-  color: #61dafb;
+.student-image img {
+  width: 100px;
+  height: auto;
+}
+h4{
+  color: #ABC270;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
